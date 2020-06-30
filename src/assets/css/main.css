@@ -1,0 +1,152 @@
+body{
+    font-size: 16px;
+    /* background: #f7f7f7;
+    background-color: #f7f7f7; */
+}
+#app{
+    /* background: #f7f7f7; */
+}
+.grayColor{
+    color: #cecece;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+input, select, textarea{
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.p18{
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    max-width: 350px;
+    padding: 7px 0 7px 10px;
+}
+.formulate-input-element{
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    padding: 10px 10px 10px 20px;
+}
+button.blueBtn{
+    background: rgb(57, 107, 245);
+    border: 2px solid rgb(57, 107, 245);
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 30px;
+}
+select{
+    padding: 7px 50px 7px 10px;
+    margin-right: 20px;
+}
+
+.signup input, .signup button, .code input, .code button, .signin input, .signin button, .signin select, .signup select{
+    width: 100%;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    padding: 10px 5px 10px 15px;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    font-size: 20px;
+    max-width: 450px;
+}
+ul.formulate-input-errors{
+    padding-left: 0;
+    margin-top: -10px;
+    margin-bottom: 0;
+}
+ul.formulate-files{
+    padding-left: 0;
+}
+ul.formulate-files li{
+    list-style: none;
+    max-width: 150px;
+    border-radius: 5px;
+}
+ul.formulate-files .formulate-file-name{
+    display: none;
+}
+ul.formulate-files img{
+    max-width: 100%;
+}
+li.formulate-input-error{
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+    color: red;
+}
+.signup button, .code button, .signin button{
+    margin: 20px 0 10%;
+    background: rgb(57, 107, 245);
+    border: 2px solid rgb(57, 107, 245);
+    color: #fff;
+    /* padding: 10px 0; */
+    border-radius: 5px;
+}
+.signup input::placeholder{
+    color: #cecece;
+    font-size: 20px;
+    font-weight: 400;
+}
+.code button{
+    margin: 10px 0 20px;
+}
+.code input{
+    text-align: center;
+}
+.verification input{
+    margin-bottom: 10px;
+}
+.verification input[type="file"], .new-order input[type="file"], .transport input[type="file"]{
+    position: absolute;
+    height: 30px;
+    opacity: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.signup-page select{
+    width: 100%;
+    max-width: 350px;
+}
+.signup-page input[type="file"]{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.profile-about textarea, .profile-about input{
+    border: none;
+    padding: 0;
+    min-height: 30px;
+    outline: none;
+    min-width: 100%;
+}
+.profile-about textarea:disabled, .profile-about input:disabled{
+    background: none;
+    color: #aaa;
+    cursor: default;
+}
+.profile-about .formulate-input-element{
+    margin-bottom: 0;
+}
+
+.transport select, .transport input{
+    max-width: 100%;
+    width: 100%;
+}
+
+.pay form input{
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
